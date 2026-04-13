@@ -1,14 +1,32 @@
 # MATLAB temporary/editor files
 *.asv
 *.autosave
+*.mlx.autosave
+*.m~
+*_autosave*
 slprj/
+codegen/
+cache/
 
-# Compiled binaries and generated caches
+# MATLAB project and local metadata
+resources/project/
+
+# Compiled binaries and generated artifacts
 *.mex*
+*.p
+
+# Logs and crash dumps
+*.log
+*.tmp
+*.bak
+matlab_crash_dump.*
+hs_err_pid*
 
 # Editor/IDE settings
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS noise
 .DS_Store
