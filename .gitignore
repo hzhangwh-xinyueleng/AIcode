@@ -1,0 +1,15 @@
+# MATLAB temporary/editor files
+*.asv
+*.autosave
+slprj/
+
+# Compiled binaries and generated caches
+*.mex*
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# OS noise
+.DS_Store
+Thumbs.db
